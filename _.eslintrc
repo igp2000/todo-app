@@ -11,7 +11,6 @@
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
- //"parser": "babel-eslint",
  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -32,7 +31,6 @@
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "linebreak-style": [0, "unix"],
     "quotes": ["error", "single"],
-    //"semi": ["error", "never"],
     "semi": ["error", "always"],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": 0,
@@ -62,23 +60,3 @@
     }
   }
 }
-/*
-{
-  "env": {
-    "browser": true,
-    "es6": true,
-    "node": true
-  },
-  "extends": ["airbnb/base"],
-  "parser": "babel-eslint",
-  "rules": {
-    "no-console": "off", // разрешаем console.log
-    "no-plusplus": "off", // ++
-    "eol-last": "off", // в конце файла обязательна пустая строка
-    //"max-len": ["error", 150] // максимальная длина строки
-    "no-tabs": "off", // разрешаем использование tab для отступов
-    "no-alert": "error", // разрешаем alert
-    "indent": [2, "tab"] // разрешаем толко 2 прообела или 2 таба
-  }
-}
-*/
