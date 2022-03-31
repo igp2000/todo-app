@@ -1,3 +1,3 @@
-# todo-app
+# todo-app-timer
 
-https://todo-app3-ashen.vercel.app
+
